@@ -1,0 +1,78 @@
+<html>
+  <head>
+    <title>Test</title>
+    <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+
+    <script>
+    $(document).ready(function() {
+      //console.log is useful when debugging
+      console.log("done son!");
+
+      //One way to do a click event
+      $("#Cat").on( "click", function() {
+        alert("Hey don't click me I'm a cat!");
+      });
+
+      $(".family").on( "click", function() {
+        console.log("We are a member of the family");
+      });
+
+    });
+
+    //Another way to do a click event this will require you to use an inline onclick event
+    function buttonClick(){
+      alert("Yee Yee I'm a dog!!")
+    };
+
+    </script>
+    <style>
+      .pinkBackground{
+        background-color: #9933ff;
+        width: 250px;
+        cursor: no-drop;
+      }
+
+      #GreenBackground{
+        background-color: green;
+      }
+
+      .pinkBackground, #GreenBackground{
+        text-align: center;
+        color: white;
+      }
+
+      #Dog, #Cat{
+        cursor: pointer;
+      }
+
+      #Dog{
+        margin-right: 130px;
+      }
+
+    </style>
+  </head>
+  <body>
+
+    <div class='pinkBackground'>
+      test1
+    </div>
+    <div id='GreenBackground'>
+      <p>test2</p>
+    </div>
+    <div class='pinkBackground'>
+      test3
+    </div>
+    <br />
+
+    <button id="Dog" class="family" onclick="buttonClick()">I'm a Dog Button!</button>
+
+    <button id="Cat" class="family">I'm a Cat Button!</button>
+
+    <h1>I am a h1 tag</h1>
+    <h2>I am a h2 tag</h2>
+    <h3>I am a h3 tag</h3>
+    <h4>I am a h4 tag</h4>
+    <h5>I am a h5 tag</h5>
+
+  </body>
+</html>
