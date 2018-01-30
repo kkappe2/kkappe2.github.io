@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Portfolio Site</title>
+  </head>
+  <body>
+    <img src="https://geauxpurpleandgold.com/media/catalog/product/cache/5/image/650x/040ec09b1e35df139433887a97daa66f/l/s/lsu.americanflag.jpg" width="175" height="75" alt="My Logo" style="float:right";>
+      <div>
+        <h1>Code Assignment 01</h1>
+        <p>This web page is the first step in building my portfolio for each assignment to be completed in this course.</p>
+        <br />
+        <a href="https://geog4046.github.io/assignments/code-assignment-01/" target="_blank">Link to assignment</a>
+        <br />
+        <img src="https://geog4046.github.io/assignments/code-assignment-01/" alt="Coding Assignment Photo">
+      </div>
+  </body>
+</html>
