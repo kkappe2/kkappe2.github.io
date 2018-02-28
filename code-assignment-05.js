@@ -12,13 +12,14 @@ let assignmentObject2 = {
   desc: 'Step 2. In the JavaScript file, create at least two objects with at least three properties and values each.'
 }
 
-let assignmentArray = [
+let assignmentArray1 = [
   assignmentObject1,
   assignmentObject2
 ]
 
-for (let i = 0; i < assignmentArray.length; i++) {
-  if (assignmentArray[i].id === 1) {
-   console.log('Element ' + i + ' description: ' + assignmentObject[i].desc)
+for (let i = 0; i < assignmentArray1.length; i++) {
+  if (assignmentArray1[i].id === 1) {
+    console.log(i);
+    console.log('Element ' + i + ' description: ' + assignmentArray1[i].desc);
   }
 }
