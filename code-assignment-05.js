@@ -19,7 +19,6 @@ let assignmentArray1 = [
 
 for (let i = 0; i < assignmentArray1.length; i++) {
   if (assignmentArray1[i].id === 1) {
-    console.log(i);
     console.log('Element ' + i + ' description: ' + assignmentArray1[i].desc);
   }
 }
