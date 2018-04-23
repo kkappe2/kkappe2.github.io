@@ -31,11 +31,11 @@ let myIcon = L.icon({
   popupAnchor: [-3, -76]
 })
 
-let myMarker = L.marker([25.1972, 55.2744], {icon: myIcon}).addTo(dubaiCity)
+let markedLocation = L.marker([25.1972, 55.2744], {icon: myIcon}).addTo(dubaiCity)
 
 let myStyle = {
   color: 'red',
   fillColor: 'pink'
 }
 
-let myPolygon = L.polygon(myCoords, myStyle).addTo(dubaiCity)
+let cityArea = L.polygon(cityArea, myStyle).addTo(dubaiCity)
