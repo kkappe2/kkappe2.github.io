@@ -1,0 +1,37 @@
+.mapContainer {
+  padding-top: 20px;
+}
+
+.pageInstruction, .basemap-row, #northAmericanMapContainer, .legend {
+  margin-bottom: 20px;
+}
+
+.popup-city {
+  font-weight: bold;
+}
+
+.popup-venue {
+  font-style: italic;
+}
+
+.popup-showDateRange {
+  color: blue;
+}
+
+.pageHeader, .pageInstruction {
+  text-align: center;;
+}
+
+.basemap-column {
+  text-align: center;
+}
+
+.legend-label {
+  font-weight: bold;
+  margin-right: 10px;
+  padding-left: 15px;
+}
+
+#northAmericanMapContainer {
+  height: 600px;
+}
