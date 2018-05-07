@@ -1,3 +1,23 @@
 #dubaiCoordinates {
-  height: 600px
+  height: 880px
+}
+
+.popup-city {
+  font-weight: bold;
+}
+
+.popup-population {
+  font-style: italic;
+}
+
+.popup-city {
+  text-decoration: underline;
+}
+
+.popup-country {
+  font-weight: bolder;
+}
+
+.pageHeader {
+  text-align: center;
 }
