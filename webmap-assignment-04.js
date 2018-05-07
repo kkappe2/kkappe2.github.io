@@ -1,5 +1,5 @@
 //let someName = L.map('your-map-div-id').setView([yourLat, yourLon], yourZoom)
-let dubaiCity = L.map('dubaiCoordinates').setView([24.4539, 54.3773], 7.4)
+let dubaiCity = L.map('dubaiCoordinates').setView([24.4539, 54.3773], 8)
 //(IN CLASS EXAMPLE) let basemap = 'https://cartodb-basemaps-{s}.global.ssl.fastly.net/dark_nolabels/{z}/{x}/{y}.png'
 //(IN CLASS EXAMPLE) L.tileLayer().addTo(mymap)
 //or could combined line 3 and 4 via L.ttleLayer('https://cartodb-basemaps-{s}.global.ssl.fastly.net/dark_nolabels/{z}/{x}/{y}.png').addTo(mymap)
